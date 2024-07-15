@@ -1,0 +1,17 @@
+name: facial_recognition_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pandas
+  - matplotlib
+  - pillow
+  - scikit-learn
+  - opencv
+  - tqdm
+  - jupyterlab
+  - pip:
+      - deepface
+      - ipywidgets
